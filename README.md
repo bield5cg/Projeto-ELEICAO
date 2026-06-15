@@ -175,7 +175,6 @@ Durante o desenvolvimento deste projeto foram praticados conceitos importantes d
 - Cardinalidade
 - Chaves Primárias e Estrangeiras
 - Consultas com JOIN
-- Agregações com COUNT
 - Versionamento com Git e GitHub
 
 #  Arquivos do Projeto
