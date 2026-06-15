@@ -65,7 +65,7 @@ UNIQUE(id_eleitor, id_eleicao)
 
 ### Banco de Dados
 
-MariaDB
+-MariaDB
 -PostgreSQL (Supabase)
 
 ### Linguagem
@@ -73,18 +73,15 @@ MariaDB
 
 ### Ferramentas
 -XAMPP
-
 -Supabase
-
 -Git
-
 -GitHub
 
 # Como Executar o Projeto
 
 ## 1 - Criar o banco de dados
 
-CREATE DATABASE ELEICAO;
+CREATE DATABASE ELEICAO;( isso seria no MariaDB, supabase näo seria necessário) 
 
 ## 2 - Executar os scripts de criação
 
@@ -175,6 +172,7 @@ Durante o desenvolvimento deste projeto foram praticados conceitos importantes d
 - Cardinalidade
 - Chaves Primárias e Estrangeiras
 - Consultas com JOIN
+- Agregações com COUNT
 - Versionamento com Git e GitHub
 
 #  Arquivos do Projeto
