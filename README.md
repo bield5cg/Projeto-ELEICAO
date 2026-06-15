@@ -178,6 +178,14 @@ Durante o desenvolvimento deste projeto foram praticados conceitos importantes d
 - Agregações com COUNT
 - Versionamento com Git e GitHub
 
+#  Arquivos do Projeto
+
+| Arquivo | Descrição |
+|----------|-----------|
+| Script_MariaDB.sql | Implementação original em MariaDB utilizando XAMPP |
+| Script_Supabase.sql | Implementação adaptada para PostgreSQL no Supabase |
+| README.md | Documentação completa do projeto |
+
 ## Autor
 
 Gabriel Lindolfo
