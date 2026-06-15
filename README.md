@@ -46,13 +46,12 @@ Armazena os votos realizados e conecta as informações de eleitor, candidato e 
 
 Relacionamento	      
 
-Partido        →        Candidato	1
-
-Candidato      →         Voto 1
-
-Eleitor        →         Voto	1
-
-Eleição        →         Voto	1
+| Relacionamento       | Cardinalidade |
+|----------------------|---------------|
+| Partido → Candidato  | 1:N |
+| Candidato → Voto     | 1:N |
+| Eleitor → Voto       | 1:N |
+| Eleição → Voto       | 1:N |
 
 ## Regra Principal
 
@@ -67,21 +66,19 @@ UNIQUE(id_eleitor, id_eleicao)
 ### Banco de Dados
 
 MariaDB
-PostgreSQL (Supabase)
+-PostgreSQL (Supabase)
 
 ### Linguagem
-
-SQL
+-SQL
 
 ### Ferramentas
+-XAMPP
 
-XAMPP
+-Supabase
 
-Supabase
+-Git
 
-Git
-
-GitHub
+-GitHub
 
 # Como Executar o Projeto
 
@@ -165,30 +162,21 @@ Alguns comandos utilizados no MariaDB não possuíam a mesma sintaxe no PostgreS
 
 Solução: Adaptação dos scripts utilizando a documentação oficial do PostgreSQL
 
-# Aprendizados
+# Competências Desenvolvidas
 
 Durante o desenvolvimento deste projeto foram praticados conceitos importantes de Banco de Dados:
 
-Modelagem de Dados
-
-Normalização
-
-Cardinalidade
-
-Integridade Referencial
-
-SQL
-
-JOIN
-
-GROUP BY
-
-COUNT
-
-PostgreSQL
-
-Supabase
-
+- Modelagem de Banco de Dados
+- SQL
+- MariaDB
+- PostgreSQL
+- Supabase
+- Integridade Referencial
+- Cardinalidade
+- Chaves Primárias e Estrangeiras
+- Consultas com JOIN
+- Agregações com COUNT
+- Versionamento com Git e GitHub
 
 ## Autor
 
