@@ -46,12 +46,21 @@ Armazena os votos realizados e conecta as informações de eleitor, candidato e 
 
 Relacionamento	      
 
-| Relacionamento       | Cardinalidade |
-|----------------------|---------------|
-| Partido → Candidato  | 1:N |
-| Candidato → Voto     | 1:N |
-| Eleitor → Voto       | 1:N |
-| Eleição → Voto       | 1:N |
+# Relacionamentos
+
+| Relacionamento | Cardinalidade |
+|---------------|---------------|
+| Partido → Candidato | 1:N |
+| Candidato → Voto | 1:N |
+| Eleitor → Voto | 1:N |
+| Eleição → Voto | 1:N |
+
+Onde:
+
+- Um partido pode possuir vários candidatos.
+- Um candidato pode receber vários votos.
+- Um eleitor pode participar de várias eleições, porém apenas uma vez em cada uma delas.
+- Uma eleição pode possuir vários votos registrados.
 
 ## Regra Principal
 
