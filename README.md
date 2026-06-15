@@ -109,10 +109,12 @@ Realizar a apuração da eleição.
 
 # Consultas Implementadas
 ### Consulta de Candidatos e Partidos
+<img width="1900" height="809" alt="Image" src="https://github.com/user-attachments/assets/c66fa3f4-c6be-495e-9b02-817d557326c8" />
 
 Relaciona os candidatos aos respectivos partidos.
 
 ### Consulta Geral da Eleição
+<img width="1915" height="855" alt="Image" src="https://github.com/user-attachments/assets/4e5a5594-2ccc-4a03-a947-d6db276d80d0" />
 
 Apresenta:
 
@@ -129,6 +131,7 @@ Eleição;
 Data e horário do voto.
 
 ### Apuração dos Votos
+<img width="1911" height="846" alt="Image" src="https://github.com/user-attachments/assets/e051088c-80de-4a15-a36b-7ab8e4e47e45" />
 
 Conta os votos recebidos por cada candidato e exibe o resultado em ordem decrescente.
 
